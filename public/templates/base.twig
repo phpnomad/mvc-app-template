@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-core="modern">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="public/dist/styles.css">
+    {% block stylesheets %}{% endblock %}
+</head>
+<body>
+{% include 'components/header.twig' %}
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+{% include 'components/footer.twig' %}
+</body>
+</html>

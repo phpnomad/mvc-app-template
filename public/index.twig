@@ -1,0 +1,43 @@
+{% extends 'templates/base.twig' %}
+
+{% block content %}
+    <div class="container welcome-section">
+        <div class="welcome-header">
+            <img src="public/assets/logo.png"
+                 alt="PHPNomad Logo, featuring a class-C RV with the PHP Elephant on-top, joyously riding along as the RV speeds forward."/>
+            <h1>Welcome to Your PHPNomad Application</h1>
+            <div class="success-badge">
+                ✓ Application Successfully Initialized
+            </div>
+        </div>
+
+        <div class="welcome-description">
+            <p>
+                Your application is now ready for development. PHPNomad helps you write code that can easily move
+                between
+                different PHP systems while maintaining clean, maintainable architecture.
+            </p>
+            <strong>To get started, modify this file in <code>public/index.twig</code></strong>
+        </div>
+
+        <div class="resource-grid">
+            <div class="resource-card">
+                <h3>Quick Start</h3>
+                <p>Learn the basics and get your first feature running</p>
+                <a href="https://phpnomad.com/docs/quickstart">Read Guide →</a>
+            </div>
+
+            <div class="resource-card">
+                <h3>Core Concepts</h3>
+                <p>Understand the key principles behind PHPNomad</p>
+                <a href="https://phpnomad.com/docs/concepts">Learn More →</a>
+            </div>
+
+            <div class="resource-card">
+                <h3>Examples</h3>
+                <p>Browse example applications and code samples</p>
+                <a href="https://phpnomad.com/examples">View Examples →</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
