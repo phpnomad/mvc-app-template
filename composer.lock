@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14d247d0dcc3375ce3f34c3870634d72",
+    "content-hash": "a8ba0bc9d1b4714e0164fecf06056edf",
     "packages": [
         {
             "name": "filp/whoops",
@@ -350,20 +350,20 @@
         },
         {
             "name": "phpnomad/datastore",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpnomad/datastore.git",
-                "reference": "6bf7919e0849fd4d514d3659a917df65388a6b05"
+                "reference": "1fcee29c6bf8e29ca490c86f21e0bb49b3f70d9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/datastore/zipball/6bf7919e0849fd4d514d3659a917df65388a6b05",
-                "reference": "6bf7919e0849fd4d514d3659a917df65388a6b05",
+                "url": "https://api.github.com/repos/phpnomad/datastore/zipball/1fcee29c6bf8e29ca490c86f21e0bb49b3f70d9f",
+                "reference": "1fcee29c6bf8e29ca490c86f21e0bb49b3f70d9f",
                 "shasum": ""
             },
             "require-dev": {
-                "phpnomad/tests": "^0.1.0"
+                "phpnomad/tests": "^0.1.0 || ^0.3.0"
             },
             "type": "library",
             "autoload": {
@@ -384,9 +384,9 @@
             "homepage": "https://github.com/phpnomad/core",
             "support": {
                 "issues": "https://github.com/phpnomad/datastore/issues",
-                "source": "https://github.com/phpnomad/datastore/tree/1.0.0"
+                "source": "https://github.com/phpnomad/datastore/tree/2.0.0"
             },
-            "time": "2024-12-18T17:06:26+00:00"
+            "time": "2024-12-28T14:35:23+00:00"
         },
         {
             "name": "phpnomad/di",
@@ -2190,10 +2190,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
