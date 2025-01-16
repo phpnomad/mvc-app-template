@@ -952,16 +952,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpnomad/template.git",
-                "reference": "a6303313699dc6ba2c90c73f25ca27ce561b7a55"
+                "reference": "675a8e4b075f97f822e681a559ee224a35e15f4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/template/zipball/a6303313699dc6ba2c90c73f25ca27ce561b7a55",
-                "reference": "a6303313699dc6ba2c90c73f25ca27ce561b7a55",
+                "url": "https://api.github.com/repos/phpnomad/template/zipball/675a8e4b075f97f822e681a559ee224a35e15f4a",
+                "reference": "675a8e4b075f97f822e681a559ee224a35e15f4a",
                 "shasum": ""
             },
             "require-dev": {
-                "phoenix/tests": "^0.1.0"
+                "phpnomad/tests": "^0.1.0"
             },
             "type": "library",
             "autoload": {
@@ -984,20 +984,20 @@
                 "issues": "https://github.com/phpnomad/template/issues",
                 "source": "https://github.com/phpnomad/template/tree/1.0.0"
             },
-            "time": "2024-12-18T16:24:16+00:00"
+            "time": "2024-12-18T17:27:18+00:00"
         },
         {
             "name": "phpnomad/twig-integration",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpnomad/twig-integration.git",
-                "reference": "d9e550148541e1c385691e956a933778040c5887"
+                "reference": "49b3fe2cc8784966c297e57598cb95729e97c525"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/twig-integration/zipball/d9e550148541e1c385691e956a933778040c5887",
-                "reference": "d9e550148541e1c385691e956a933778040c5887",
+                "url": "https://api.github.com/repos/phpnomad/twig-integration/zipball/49b3fe2cc8784966c297e57598cb95729e97c525",
+                "reference": "49b3fe2cc8784966c297e57598cb95729e97c525",
                 "shasum": ""
             },
             "require": {
@@ -1005,7 +1005,7 @@
                 "twig/twig": "^3.0"
             },
             "require-dev": {
-                "phoenix/tests": "^0.1.0"
+                "phpnomad/tests": "^0.1.0 || ^0.3.0"
             },
             "type": "library",
             "autoload": {
@@ -1026,9 +1026,9 @@
             "homepage": "https://github.com/phoenix/core",
             "support": {
                 "issues": "https://github.com/phpnomad/twig-integration/issues",
-                "source": "https://github.com/phpnomad/twig-integration/tree/1.0.0"
+                "source": "https://github.com/phpnomad/twig-integration/tree/1.0.1"
             },
-            "time": "2024-12-18T16:24:35+00:00"
+            "time": "2025-01-15T11:35:44+00:00"
         },
         {
             "name": "phpnomad/update",
@@ -1508,12 +1508,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -2108,16 +2108,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.17.1",
+            "version": "v3.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "677ef8da6497a03048192aeeb5aa3018e379ac71"
+                "reference": "acffa88cc2b40dbe42eaf3a5025d6c0d4600cc50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/677ef8da6497a03048192aeeb5aa3018e379ac71",
-                "reference": "677ef8da6497a03048192aeeb5aa3018e379ac71",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/acffa88cc2b40dbe42eaf3a5025d6c0d4600cc50",
+                "reference": "acffa88cc2b40dbe42eaf3a5025d6c0d4600cc50",
                 "shasum": ""
             },
             "require": {
@@ -2172,7 +2172,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.17.1"
+                "source": "https://github.com/twigphp/Twig/tree/v3.18.0"
             },
             "funding": [
                 {
@@ -2184,16 +2184,16 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-12-12T09:58:10+00:00"
+            "time": "2024-12-29T10:51:50+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
