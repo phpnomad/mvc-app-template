@@ -26,7 +26,7 @@
         "phpnomad/core": "^1.0",
         "phpnomad/symfony-event-dispatcher-integration": "^1.0",
         "phpnomad/json-config-integration": "^1.0",
-        "phpnomad/datastore": "^1.0",
+        "phpnomad/datastore": "^2.0",
         "phpnomad/fastroute-rest-integration": "^1.0",
         "phpnomad/symfony-cache-integration": "^1.0",
         "phpnomad/twig-integration": "^1.0",
